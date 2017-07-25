@@ -14,10 +14,10 @@ source1:
   module: 'object_recognition_ros.io'
   parameters:
     rgb_frame_id: 'kinect2_rgb_optical_frame'
-    rgb_image_topic: '/kinect2/sd/image_color_rect'
-    rgb_camera_info: '/kinect2/sd/camera_info'
-    depth_image_topic: '/kinect2/sd/image_depth_rect'
-    depth_camera_info: '/kinect2/sd/camera_info'
+    rgb_image_topic: '/kinect2/qhd/image_color_rect'
+    rgb_camera_info: '/kinect2/qhd/camera_info'
+    depth_image_topic: '/kinect2/qhd/image_depth_rect'
+    depth_camera_info: '/kinect2/qhd/camera_info'
 #  bag: /home/vrabaud/tod_data_new/training/object_recognition_capture/eggo_01.bag
 
 sink1:

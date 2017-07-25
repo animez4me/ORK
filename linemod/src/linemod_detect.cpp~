@@ -111,7 +111,7 @@ struct Detector: public object_recognition_core::db::bases::ModelReaderBase {
      detector_ = cv::linemod::getDefaultLINEMOD();
      else
      throw std::runtime_error("Unsupported method. Supported ones are: DefaultLINEMOD");*/
-    //*use_rgb_ = true;
+    *use_rgb_ = true;
     if(!(*use_rgb_) && !(*use_depth_))
       throw std::runtime_error("Unsupported type of input data: either use_rgb or use_depth (or both) parameters shouled be true");
     if(!(*use_rgb_) && *use_depth_)
